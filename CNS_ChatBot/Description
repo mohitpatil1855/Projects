@@ -1,0 +1,10 @@
+This project is a simple Client–Server Chat Application implemented in Java using TCP sockets.
+The server listens on port 5100, accepts a client connection, and both sides communicate using continuous input/output streams. Messages are exchanged in a loop until the client types "end".
+
+It demonstrates core networking concepts such as:
+
+--Creating sockets (Socket, ServerSocket)
+--Stream-based communication (BufferedReader, PrintStream)
+--Full-duplex message exchange
+--Basic blocking I/O mechanisms in Java
+--This project is ideal for beginners learning Java networking and understanding how TCP communication work
